@@ -1,0 +1,61 @@
+
+form{
+    position: relative;
+    width: 55%;
+    margin: 32px auto 50px auto;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128,128,128);
+}
+
+form input{
+    width: 95%;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+form textarea{
+    width: 95%;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: inherit;
+}
+
+form button{
+    float: right;
+    border: none;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10px);
+    box-shadow: 0 1px 3px rgb(165,168,165);
+    outline: none;
+}
+
+form button p{
+    font-size: 17px;
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+form .colorpicker{
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: none;
+    transform: translateY(-10px);
+    border: none;
+    border-radius: 50%;
+}
