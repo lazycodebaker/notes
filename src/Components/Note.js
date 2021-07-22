@@ -11,7 +11,6 @@ function Note(props) {
         note.bgcolor = newbgcolor;
         localStorage.setItem(props.noteid,JSON.stringify(note));
         window.location.reload(true);
-
     };
 
     return (
