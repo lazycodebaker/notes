@@ -1,0 +1,15 @@
+{
+    "name": "Notes App created using create-react-app",
+    "short_name": "Notes App",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "notes-app-128.ico",
+        "sizes": "32x32",
+        "type": "image/x-icon"
+      }
+    ]
+}
